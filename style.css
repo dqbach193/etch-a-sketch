@@ -2,7 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
 }
-​
+
 #container{
     background-color: aquamarine;
     width: 800px;
@@ -12,7 +12,7 @@ body{
     flex-wrap: wrap;
     gap: 2px;
 }
-​
+
 .square{
     display: flex;
     justify-content: center;
@@ -20,4 +20,8 @@ body{
     width: 5%;
     height: 5%;
     border: black solid 3px;
+}
+
+.break{
+    flex
 }
