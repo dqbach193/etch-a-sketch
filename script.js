@@ -3,15 +3,15 @@ const container = document.getElementById('container');
 
 function createDivs(num) {
     for (let i = 0; i < num; i++) {
-        const breakLine = document.createElement("div");
-        breakLine.classList.add('break-line');
-        container.appendChild(breakLine);
+        const newContainer = document.createElement("div");
+        newContainer.classList.add('row-container');
         for (let j = 0; j < num; j++) {
             const newDiv = document.createElement("div");
             newDiv.innerText= j+1;
             newDiv.classList.add("square");
-            container.appendChild(newDiv);
+            newContainer.appendChild(newDiv);
         }
+        container.appendChild(newContainer);
     }
 }
 
